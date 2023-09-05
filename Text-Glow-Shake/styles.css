@@ -1,0 +1,32 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+#text {
+  display: inline-flex;
+  font-size: 5em;
+}
+
+.character {
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.dot {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
